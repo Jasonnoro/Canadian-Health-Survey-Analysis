@@ -30,7 +30,7 @@ An exploratory data analysis project examining Canadian health survey data to id
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Canadian-Health-Survey-Analysis.git
+git clone https://github.com/Jasonnoro/Canadian-Health-Survey-Analysis.git
 cd Canadian-Health-Survey-Analysis
 ```
 
