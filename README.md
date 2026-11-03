@@ -72,6 +72,4 @@ pip install -r requirements.txt
 
 Explore how demographic, socioeconomic, and lifestyle factors relate to self-reported health and stress levels across Canadian provinces. Use data analysis and visualization to uncover patterns and generate meaningful insights from population health indicators.
 
----
 
-*Developed using Python and its data science ecosystem.*
