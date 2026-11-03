@@ -1,66 +1,77 @@
-# Canadian Health Survey Analysis
+# Canadian Health & Wellbeing Analysis
 
 ## Overview
-An exploratory data analysis project examining Canadian health survey data to identify population health trends, patterns, and insights. Uses Python-based data manipulation, statistical exploration, and visualization to better understand health-related indicators across the Canadian population.
+
+An exploratory data analysis project investigating health, lifestyle, and socioeconomic indicators across Canadian provinces. The dataset contains 850 observations covering demographic characteristics, income, BMI, physical activity, smoking habits, self-rated health, and stress levels.
+
+The project uses Python's data analysis and visualization libraries to examine population-level patterns, explore relationships between lifestyle factors and health outcomes, and identify trends across different demographic groups.
+
+## Dataset
+
+The dataset contains 850 observations and 9 features.
+
+| Feature | Description |
+|---|---|
+| Province | Canadian province associated with the observation |
+| Gender | Gender classification |
+| Age | Age of the individual |
+| Income | Individual income |
+| BMI | Body Mass Index |
+| PhysicalActivity | Physical activity measurement |
+| Smoking | Smoking status |
+| SelfRatedHealth | Individual's perceived health status |
+| StressLevel | Reported stress level |
+
+### Dataset Characteristics
+- 850 observations
+- 9 features
+- Missing values in Income (34), BMI (42), PhysicalActivity (25), and StressLevel (25).
+- Categorical and numerical variables.
 
 ## Technologies Used
+
 - **Python 3.14** – Analysis environment
 - **NumPy** – Numerical computing
-- **Pandas** – Data cleaning, manipulation, and analysis
+- **Pandas** – Data cleaning and manipulation
 - **Matplotlib** – Data visualization
 - **Seaborn** – Statistical visualization
 
-## Features
-- Data loading, cleaning, and preprocessing
-- Exploratory data analysis (EDA)
-- Statistical summaries and comparisons
-- Visualization of health indicators and distributions
-- Identification of trends and patterns in survey data
+## Key Areas of Analysis
 
-## Requirements
-- Python 3.14
-- Jupyter Notebook or a compatible Python kernel
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
+- Exploratory Data Analysis (EDA)
+- Missing value identification and handling
+- Demographic and socioeconomic analysis
+- BMI and physical activity patterns
+- Smoking habits and self-rated health comparisons
+- Stress level distribution and relationships with other indicators
+- Statistical summaries and data visualization
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Jasonnoro/Canadian-Health-Survey-Analysis.git
-cd Canadian-Health-Survey-Analysis
+git clone https://github.com/Jasonnoro/Canadian-Health-Wellbeing-Analysis.git
+cd Canadian-Health-Wellbeing-Analysis
 ```
 
 Install the dependencies:
 
 ```bash
-pip install numpy pandas matplotlib seaborn jupyter
+pip install -r requirements.txt
 ```
 
 ## Running the Project
 
-1. Open the project directory in Jupyter Notebook or VS Code.
-2. Select the **Python 3.14 kernel**.
+1. Open the repository in Jupyter Notebook or VS Code.
+2. Select the Python 3.14 kernel.
 3. Open the analysis notebook (`.ipynb`).
-4. Run the cells sequentially to reproduce the analysis and visualizations.
+4. Execute the cells sequentially to reproduce the analysis and visualizations.
 
-## Project Structure
+## Project Objective
 
-```text
-Canadian-Health-Survey-Analysis/
-│
-├── data/               # Survey datasets
-├── notebooks/          # Jupyter analysis notebooks
-├── README.md
-└── requirements.txt    # Project dependencies
-```
-
-## Objective
-Explore Canadian health survey data through data-driven analysis and visualization, translating raw survey information into meaningful insights about population health.
+Explore how demographic, socioeconomic, and lifestyle factors relate to self-reported health and stress levels across Canadian provinces. Use data analysis and visualization to uncover patterns and generate meaningful insights from population health indicators.
 
 ---
 
-
+*Developed using Python and its data science ecosystem.*
